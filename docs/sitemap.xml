@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/terraform-workshop/categories/</loc>
+    <loc>/kubernetes-workshop/categories/</loc>
   </url>
   
   <url>
-    <loc>/terraform-workshop/credits/</loc>
+    <loc>/kubernetes-workshop/credits/</loc>
   </url>
   
   <url>
-    <loc>/terraform-workshop/</loc>
+    <loc>/kubernetes-workshop/</loc>
   </url>
   
   <url>
-    <loc>/terraform-workshop/tags/</loc>
+    <loc>/kubernetes-workshop/tags/</loc>
   </url>
   
 </urlset>

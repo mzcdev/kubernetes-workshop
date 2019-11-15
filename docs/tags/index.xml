@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Kubernetes Workshop</title>
-    <link>/terraform-workshop/tags/</link>
+    <link>/kubernetes-workshop/tags/</link>
     <description>Recent content in Tags on Kubernetes Workshop</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ko-KR</language>
     
-	<atom:link href="/terraform-workshop/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/kubernetes-workshop/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
