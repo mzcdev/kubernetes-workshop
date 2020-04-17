@@ -1,10 +1,9 @@
 ---
-title: Jenkins
-weight: 71
+title: Istio
+weight: 9
 ---
 
 {{% notice tip %}}
-
 {{% /notice %}}
 
 {{% children %}}
