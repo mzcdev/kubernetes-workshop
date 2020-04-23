@@ -3,7 +3,6 @@ title: Docker
 weight: 1
 ---
 
-{{% notice tip %}}
-{{% /notice %}}
+![docker-logo](./images/docker-logo.png)
 
 {{% children %}}
