@@ -42,9 +42,9 @@ master:
   ingress:
     enabled: ${INGRESS_ENABLED}
     annotations:
-      kubernetes.io/ingress.class: nginx
-      nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
       cert-manager.io/cluster-issuer: "letsencrypt-prod"
+      kubernetes.io/ingress.class: nginx
+      nginx.ingress.kubernetes.io/ssl-redirect: "true"
     hostName: ${INGRESS_DOMAIN}
     tls:
       - secretName: jenkins-tls

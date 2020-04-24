@@ -54,11 +54,11 @@ nexusBackup:
 ingress:
   enabled: ${INGRESS_ENABLED}
   annotations:
-    kubernetes.io/ingress.class: nginx
-    nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
-    nginx.ingress.kubernetes.io/proxy-body-size: 500m
-    ingress.kubernetes.io/proxy-body-size: 500m
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    ingress.kubernetes.io/proxy-body-size: 500m
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/proxy-body-size: 500m
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
   tls:
     enabled: true
     secretName: nexus-tls
